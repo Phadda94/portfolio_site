@@ -1,0 +1,341 @@
+* {
+    background-color: #072F33;
+    color:  #01DBAF;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("federico.svg");
+    background-repeat: no-repeat;
+    background-position: 75% -40%;
+    position: absolute;
+    min-width: 800px;
+}
+
+
+
+header {
+    float: right;
+    padding: 50px 0 100% 0%;
+    position: fixed;
+    top: -10px;
+    right: -7px;
+    transition: 2s;
+    background-color: #01DBAF;
+    min-height: 500px;
+    margin-bottom: -30px;
+    box-shadow: 0px 0px 0.3em black;
+    z-index: 1;
+    text-transform: uppercase;
+    max-width: 190px;
+}
+
+
+ul {
+    background-color: transparent;
+    list-style-type: none;
+    margin-bottom: 0%;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    margin-right: 50px;
+
+    
+}
+
+li {
+    background-color: transparent;
+    margin-bottom: 50px;
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: large;
+    text-align: center;
+}
+
+li:hover {
+    left: -10px;
+}
+
+
+a.second {
+    background-color: transparent;
+    border-radius: 10%;
+    padding: 5px;
+    text-decoration: none;
+    color: #3A7876;
+    transition: 0.4s;
+    border-color: transparent;
+    position: static;
+}
+
+
+
+a.second:hover {
+    border-top: solid 1px  #CCE5E4;
+    border-bottom: solid 1px hsl(172, 1%, 12%);
+    border-radius: 25% 10%;
+    box-shadow: 4px 2px 0.1em #3A7876;
+    color: #3A7876;
+}
+
+a.active {
+    font-size: large;
+    text-decoration: none;
+    color: #CCE5E4;
+    background-color: #072F33;
+    padding: 10px;
+    border-bottom: solid 2px hsl(172, 1%, 12%);
+    border-top: solid 3px #1C5452;
+    border-radius: 25% 10%;
+    z-index: 99;
+    box-shadow: 0px 3px 0.3em black;
+    justify-content: center;
+    position: relative;
+    
+}
+
+
+
+li a.active {
+    display: flex;
+    position: relative;
+}
+
+.icon-box {
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 70px;
+    background-color: transparent;
+}
+
+.icon-box a {
+    background-color: transparent;
+    transition: 0.5s;    
+    position: fixed;
+    box-sizing: border-box;
+    border-radius: 100%;
+
+}
+
+
+.icon-box img {
+    background-color: transparent;
+    border-radius: 100%; 
+}
+
+.icon-box a:hover {
+    background-color: #CCE5E4;
+    box-shadow: 0px 2px 0.3em #072F33;
+}
+
+
+h1 {
+    font-weight: 800;
+    background-color: transparent;
+}
+
+h2 {
+    background-color: transparent;
+}
+
+h3 {
+    background-color: transparent;
+}
+ 
+#main {
+    position: absolute;
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 80px;
+    padding: 2%;
+    font-size: xx-large;
+    background-color: transparent;
+}
+
+color {
+    color:#94C1C0;
+    background-color: transparent;
+}
+
+
+.btn {
+    display: flex;
+    position: relative;
+    float: right;
+    margin-right: 850px;
+    margin-top: 380px;
+    padding: 20px;
+    border-radius: 100%;
+    border: 2px solid #072F33;
+    box-shadow: 0px 0px 0.8em #01DBAF;
+    font-size: large;
+    font-weight: bold;
+    max-width: 70px;
+    max-height: 70px;
+    background-color: #072F33;
+}
+
+ 
+.btn a {
+    background: #072F33;
+    color: #01DBAF;
+    padding: 28px;
+    border-radius: 100%;
+    position: static;
+    margin-top: -25px;
+    margin-left: -27px;
+    text-decoration: none;
+    transform-origin: bottom;
+    transition: 1.5s;
+}
+
+.btn a:hover {
+    background-color: #01DBAF;
+    color: #072F33;
+    box-shadow: 0px 0px 10em #01DBAF;
+}
+
+
+.cert-list {
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    background-color: #072F33;
+    padding-top: 0%;
+    padding-bottom: 2%;
+    width: 950px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    box-shadow: 0px 3px 0.6em black;
+    z-index: 99;
+    max-height: 40px;  
+}
+
+
+.cert-list li {
+    font-weight: 400;
+    color:#CCE5E4;
+    margin-top: 20px;
+    max-width: 10px;
+    margin-left: -50px;  
+}
+
+
+.cert-list a {
+    text-decoration: none;
+    transition: 0.6s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px;
+    color:#CCE5E4;
+}       
+
+
+.cert-list a:hover {
+    font-size: x-large;
+    position: relative;
+    margin-top: -5px;
+    margin-left: -5px;
+    letter-spacing: 2px;
+    text-shadow: 0px 2px 0.3em black;
+}
+
+
+.cert-list li:hover {
+    margin-top: 18px;
+}
+
+
+.cert-box {
+    margin-inline-end: 100px;
+    margin-inline-start: 100px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    z-index: 1;
+    background-color: transparent;
+}
+
+
+.cert-container {
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+
+.goal-list {
+    display: flex;
+    float: right;
+    margin-top: -2200px;
+    margin-right: -200px;
+    background-color: transparent;
+}
+
+
+figcaption {
+    display: flex;
+    position: relative;
+    background-color: #94C1C0;
+    color: #072F33;
+    border-top: 1px solid hsl(168, 23%, 40%);
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-bottom: 2px solid black;
+    border-radius: 3%;
+    box-shadow: 0px 10px 1em black;
+    justify-content: center;
+    position: static;
+    font-size: large;
+    font-weight: bold;
+    padding: 3px;
+    margin: 0 100px;
+    letter-spacing: 2px;
+}
+
+
+
+.intro {
+    float: inline-start;
+    margin: 300px 0 20px 10;
+    background-color: transparent;
+}
+
+
+.intro_2{
+    float: inline-start;
+    margin: 500px 0 10px 200px;
+    background-color: transparent;
+}
+
+
+.mail-box {
+    text-align: right;
+    position: static;
+}
+
+.mail-box a {
+    text-decoration: none;
+    background-color: #01DBAF;
+}
+
+
+.mail-box p {
+    margin-left: 500px;
+    margin-top: -74px;
+}
+
+
+.mail-icon {
+
+    width: 40px;
+    position: fixed;
+    margin-left: 30px;
+    margin-top: -70px;
+    transition: 1.5s;
+}
+
+
+.mail-icon:hover {
+    width: 60px;
+    margin-left: 18px;
+
+}
