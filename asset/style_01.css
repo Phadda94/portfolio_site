@@ -5,9 +5,9 @@
 }
 
 body {
-    background-image: url("federico.svg");
+    background-image: url("img/federico.svg");
     background-repeat: no-repeat;
-    background-position: 75% -40%;
+    background-position: 82% -25%;
     position: absolute;
     min-width: 800px;
 }
@@ -144,8 +144,8 @@ h3 {
 #main {
     position: absolute;
     width: 50%;
-    margin-left: 100px;
-    margin-top: 80px;
+    margin-left: 110px;
+    margin-top: 160px;
     padding: 2%;
     font-size: xx-large;
     background-color: transparent;
@@ -161,8 +161,8 @@ color {
     display: flex;
     position: relative;
     float: right;
-    margin-right: 850px;
-    margin-top: 380px;
+    margin-right: 800px;
+    margin-top:480px;
     padding: 20px;
     border-radius: 100%;
     border: 2px solid #072F33;
@@ -193,6 +193,8 @@ color {
     color: #072F33;
     box-shadow: 0px 0px 10em #01DBAF;
 }
+
+
 
 
 .cert-list {
@@ -247,9 +249,10 @@ color {
 
 .cert-box {
     margin-inline-end: 100px;
-    margin-inline-start: 100px;
+    margin-inline-start: 170px;
     margin-bottom: 30px;
-    margin-top: 100px;
+    margin-top: 160px;
+    margin-right: 150px;
     z-index: 1;
     background-color: transparent;
 }
@@ -262,12 +265,46 @@ color {
 }
 
 
-.goal-list {
+.goal-html {
     display: flex;
     float: right;
-    margin-top: -2200px;
-    margin-right: -200px;
+    margin-top: -1730px;
+    margin-left: -100px;
     background-color: transparent;
+    max-width: 400px;
+    text-align: justify;
+}
+
+
+.goal-css {
+    display: flex;
+    float: right;
+    margin-top: -1120px;
+    margin-left: -400px;
+    background-color: transparent;
+    max-width: 400px;
+    text-align: justify;
+}
+
+
+.goal-js {
+    display: flex;
+    float: right;
+    margin-top: -500px;
+    margin-left: -400px;
+    background-color: transparent;
+    max-width: 400px;
+    text-align: justify;
+}
+
+.goal-git {
+    display: flex;
+    float: right;
+    margin-top: 120px;
+    margin-left: -400px;
+    background-color: transparent;
+    max-width: 400px;
+    text-align: justify;
 }
 
 
@@ -291,11 +328,16 @@ figcaption {
     letter-spacing: 2px;
 }
 
+.cert-nav {
+    margin-left: 150px;
+
+}
+
 
 
 .intro {
     float: inline-start;
-    margin: 300px 0 20px 10;
+    margin: 800px 0 20px 10;
     background-color: transparent;
 }
 
