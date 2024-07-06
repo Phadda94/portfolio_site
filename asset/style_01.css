@@ -1,15 +1,20 @@
+
+/*    GENERAL    */    
 * {
     background-color: #072F33;
     color:  #01DBAF;
     font-family:Arial, Helvetica, sans-serif;
 }
 
-body {
-    background-image: url("img/federico.svg");
-    background-repeat: no-repeat;
-    background-position: 82% -25%;
+
+
+/*    HOME    */    
+
+
+.backgnd {
+    background-position: 82% -500px;
     position: absolute;
-    min-width: 800px;
+    min-width: 800px;  
 }
 
 
@@ -41,12 +46,45 @@ ul {
 }
 
 
+#main {
+    position: absolute;
+    width: 50%;
+    margin-left: 110px;
+    margin-top: 130px;
+    padding: 2%;
+    font-size: xx-large;
+    background-color: transparent;
+}
+
+
+div.intro {
+    position: relative;
+    max-width: 900px;
+    margin-top: 100px;
+    margin-left: 200px;
+    background-color: transparent;
+    font-size: large;
+}
+
+
+div.intro_2 {
+    position: relative;
+    background-color: transparent;
+    margin-top: 10px;
+    margin-left: 500px;
+    
+}
+
+
+
+/*   SIDE MENU    */
+
+
 .head-box {
     background-color: transparent;
     list-style-type: none;
     margin-top: -60px;
 }
-
 
 
 li {
@@ -81,7 +119,6 @@ a.second {
 }
 
 
-
 a.second:hover {
     border-top: solid 1px  #CCE5E4;
     border-bottom: solid 1px hsl(172, 1%, 12%);
@@ -89,6 +126,7 @@ a.second:hover {
     box-shadow: 4px 2px 0.1em #3A7876;
     color: #3A7876;
 }
+
 
 a.active {
     font-size: large;
@@ -107,11 +145,11 @@ a.active {
 }
 
 
-
 li a.active {
     display: flex;
     position: relative;
 }
+
 
 .icon-box {
     position: absolute;
@@ -119,6 +157,7 @@ li a.active {
     background-color: transparent;
     margin-top: -90px;
 }
+
 
 .icon-box a {
     background-color: transparent;
@@ -135,6 +174,7 @@ li a.active {
     border-radius: 100%; 
 }
 
+
 .icon-box a:hover {
     background-color: #CCE5E4;
     box-shadow: 0px 2px 0.3em #072F33;
@@ -146,23 +186,16 @@ h1 {
     background-color: transparent;
 }
 
+
 h2 {
     background-color: transparent;
 }
 
+
 h3 {
     background-color: transparent;
 }
- 
-#main {
-    position: absolute;
-    width: 50%;
-    margin-left: 110px;
-    margin-top: 160px;
-    padding: 2%;
-    font-size: xx-large;
-    background-color: transparent;
-}
+
 
 color {
     color:#94C1C0;
@@ -175,7 +208,7 @@ color {
     position: relative;
     float: right;
     margin-right: 800px;
-    margin-top:480px;
+    margin-top: 500px;
     padding: 20px;
     border-radius: 100%;
     border: 2px solid #072F33;
@@ -201,6 +234,7 @@ color {
     transition: 1.5s;
 }
 
+
 .btn a:hover {
     background-color: #01DBAF;
     color: #072F33;
@@ -208,6 +242,7 @@ color {
 }
 
 
+/*   SKILLS   */
 
 
 .cert-list {
@@ -310,6 +345,7 @@ color {
     text-align: justify;
 }
 
+
 .goal-git {
     display: flex;
     float: right;
@@ -341,11 +377,11 @@ figcaption {
     letter-spacing: 2px;
 }
 
+
 .cert-nav {
     margin-left: 150px;
 
 }
-
 
 
 .intro {
@@ -367,9 +403,10 @@ figcaption {
     position: static;
 }
 
+
 .mail-box a {
     text-decoration: none;
-    background-color: #01DBAF;
+    background-color: transparent;
 }
 
 
@@ -380,17 +417,81 @@ figcaption {
 
 
 .mail-icon {
-
     width: 40px;
-    position: fixed;
-    margin-left: 30px;
+    margin-right: -70px;
     margin-top: -70px;
     transition: 1.5s;
+    background-color: transparent;
 }
 
 
 .mail-icon:hover {
     width: 60px;
-    margin-left: 18px;
+    margin-right: -80px;
 
+}
+
+
+.contact-low {
+    position: relative;
+    margin: 800px 0 0 200px
+}
+
+
+#hobbies{
+    background-image: none;
+}
+
+
+.hobbies-container {
+    display: grid;
+    max-width: 400px;
+    grid-template-areas: "isola soundsreal"
+                         "comfy-penguins comfy-penguins";
+    grid-template-columns: 600px 600px;
+    gap: 40px;
+    margin: 200px 0 0 150px;
+}
+
+
+.hobbies-container p {
+    background-color: transparent;
+    max-width: 400px;
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 150px;
+}
+
+
+.isola a {
+    display: grid;
+    grid-area: isola;
+    background-color: transparent;
+    width: fit-content;
+}
+
+
+.soundsreal a {
+    display: grid;
+    grid-area: soundsreal;
+    background-color: transparent;
+    width: fit-content;
+    margin-bottom: -5px;
+}
+
+
+.hobbies-container img {
+    max-width: 400px;
+    justify-self: center;
+    background-color: transparent;
+    transition: 1s;
+}
+
+
+.hobbies-container img:hover {
+    max-width: 500px;
+    margin: -50px 0 0 -50px;
 }
